@@ -1,0 +1,11 @@
+<!--pages/detail/detail.wxml-->
+
+<!-- <view><text>{{msg}}</text> -->
+<view>
+<button bindtap='changeMap'>点击</button>
+<view wx:for="{{array}}">
+{{index+1}}:{{item}}
+</view>
+<view>{{time}}</view>
+</view>
+<!-- </view> -->

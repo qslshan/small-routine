@@ -1,0 +1,6 @@
+<!--components/ComponentTemp/ComponetTemp.wxml-->
+ <template name="qslshan">
+  <view >
+    <view>{{msg}}</view>
+  </view>
+</template> 

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/personal/personal",
+    "pages/detail/detail",
+    "pages/world/world",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/svg/default.png",
+        "selectedIconPath": "assets/svg/users.png"
+      },
+      {
+        "pagePath": "pages/world/world",
+        "text": "世界杯",
+        "iconPath": "assets/svg/footballoff.jpg",
+        "selectedIconPath": "assets/svg/footballon.jpg"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "详情",
+        "iconPath": "assets/svg/mine_unselect.png",
+        "selectedIconPath": "assets/svg/users.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "assets/svg/myoff.jpg",
+        "selectedIconPath": "assets/svg/myon.jpg"
+      }
+    ],
+    "backgroundColor": "#FFF",
+    "selectedColor": "#199CDF"
+  }
+}
